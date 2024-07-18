@@ -15,8 +15,6 @@ A front end deploy tool for scp. init config file in your project root directory
 
 ```js
 {
-    // write your local build command, default is npm run build
-    buildCmd: 'npm run build',
     // write your local build output dir
     buildDir: 'dist',
     // remote servers config
@@ -31,6 +29,8 @@ A front end deploy tool for scp. init config file in your project root directory
         username: 'root',
         // write your remote server port, default is 22
         port: '22',
+        // write your local build command, default is npm run build
+        buildCmd: 'npm run build',
     }]
 }
 ```
