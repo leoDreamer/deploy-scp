@@ -16,7 +16,7 @@ program
     isDefault: true,
   })
   .description('deploy to remote server')
-  .option('-n, --namespace <namespace...>', 'namespace to deploy')
+  .option('-n, --namespace <namespace...>', 'server namespace to deploy')
   .action(deploy)
 
 program.parse(process.argv)

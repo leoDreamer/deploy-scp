@@ -14,18 +14,23 @@ A front end deploy tool for scp. init config file in your project root directory
 ## Config Field
 
 ```js
-    // write your deploy namespace, should be unique, use in deploy command to select which server to deploy
-    namespace: '',
-    // write your remote server host
-    host: '',
-    // write your remote server static file path
-    targetPath: '',
-    // write your remote server username
-    username: 'root',
+{
     // write your local build command, default is npm run build
     buildCmd: 'npm run build',
-    // write your remote server port, default is 22
-    port: '22',
     // write your local build output dir
     buildDir: 'dist',
+    // remote servers config
+    servers: [{
+        // write your deploy namespace, should be unique, use in deploy command to select which server to deploy
+        namespace: '',
+        // write your remote server host
+        host: '',
+        // write your remote server static file path
+        targetPath: '',
+        // write your remote server username
+        username: 'root',
+        // write your remote server port, default is 22
+        port: '22',
+    }]
+}
 ```
