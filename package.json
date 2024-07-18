@@ -1,6 +1,6 @@
 {
   "name": "deploy-scp",
-  "version": "0.0.14",
+  "version": "0.0.18",
   "description": "a front end deploy tool for scp",
   "bin": {
     "sdeploy": "bin/index.js"
@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:leoDreamer/scp-deploy.git"
+    "url": "git+ssh://git@github.com:leoDreamer/deploy-scp.git"
   },
   "scripts": {
     "test": "jest",
