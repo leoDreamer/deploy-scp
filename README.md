@@ -1,5 +1,13 @@
 # deploy-scp
 
+### ⚠️ This project is no longer maintained.
+
+## ⚠️ This project is no longer maintained.
+
+# ⚠️ This project is no longer maintained.
+
+# ⚠️ Move to [@cqfe/deploy-scp](https://www.npmjs.com/package/@cqfe/deploy-scp)
+
 ## Description
 
 A front end deploy tool for scp. init config file in your project root directory by command `sdeploy init`, and edit config file to your need. then you can simple deploy your project to remote server by command `sdeploy -n xxx`.

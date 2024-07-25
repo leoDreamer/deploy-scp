@@ -1,6 +1,6 @@
 {
   "name": "deploy-scp",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "description": "a front end deploy tool for scp",
   "bin": {
     "sdeploy": "bin/index.js"
